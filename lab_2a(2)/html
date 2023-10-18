@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lab 2a(1)</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p class="main">A Trusted Reputation Built Over Time</p>
+    <p class="sample-text">
+      Sample text. Click to select the text. Click again or double click to
+      start editing the text.
+    </p>
+    <div class="photo1">
+      <img src="images/photo1 (lab2a(1)).png" />
+    </div>
+    <div class="border-white"></div>
+    <h2 class="k">10k</h2>
+    <p class="text1">Completed Projects</p>
+    <div class="photo2">
+      <img src="images/photo3 (lab2a(1)).png" width="89%" />
+    </div>
+    <p class=""></p>
+    <div class="photo3">
+      <img src="images/photo2 (lab2a(1)).png" width="87%" />
+    </div>
+    <div class="border-orange"></div>
+    <h2 class="number">40+</h2>
+    <p class="text2">Years Established</p>
+    <div class="photo4">
+      <img src="images/photo4 (lab2a(1)).png" width="86.8%" />
+    </div>
+    <p class="images">Images from</p>
+    <a class="freepik" href="#">Freepik</a>
+  </body>
+</html>
