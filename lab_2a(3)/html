@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2a(3)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="images/pexels-photo-3914752.jpg" class="photo1"/>
+    <img src="images/pexels-mohamed-abdelsadig-3196486.jpg" class="photo2"/>
+    <img src="images/pexels-harry-shum-12694483.jpg" class="photo3" />
+    
+    <div class="board1"></div>
+    <h2 class="text1">About Us</h2>
+    <p class="discription1">While we were not the first home cleaning<br>company in the UK, we take pride in being<br>market.</p>
+    <button class="button1"><b>READ MORE</b></button>
+    
+    <div class="board2"></div>
+    <h2 class="text2">What We Do</h2>
+    <p class="discription2">While we were not the first home cleaning<br>company in the UK, we take pride in being<br>market.</p>
+    <button class="button2"><b>READ MORE</b></button>
+
+    <div class="board3"></div>
+    <h2 class="text3"><b>Who We Are</b></h2>
+    <p class="discription3">While we were not the first home cleaning<br>company in the UK, we take pride in being<br>market.</p>
+    <button class="button3"><b>READ MORE</b></b></button>
+</body>
+</html>
