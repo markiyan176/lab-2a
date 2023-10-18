@@ -1,0 +1,97 @@
+body {
+  background-color: rgb(205, 206, 208);
+}
+.main {
+  font-family: "PT Sans Narrow", sans-serif;
+  text-align: center;
+  font-size: 35px;
+}
+.sample-text {
+  font-family: "Khand", sans-serif;
+  position: absolute;
+  top: 80px;
+  left: 740px;
+  font-size: 12px;
+}
+.photo1 {
+  position: absolute;
+  top: 140px;
+  left: 560px;
+}
+.border-white {
+  width: 190px;
+  height: 243px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 141px;
+  left: 963px;
+}
+.k {
+  color: rgb(255, 140, 0);
+  font-family: "Khand", sans-serif;
+  position: absolute;
+  top: 180px;
+  left: 1020px;
+  font-size: 50px;
+}
+.text1 {
+  font-family: "Khand", sans-serif;
+  position: absolute;
+  top: 275px;
+  left: 981px;
+  font-size: 18px;
+}
+.photo2 {
+  position: absolute;
+  top: 141px;
+  left: 1153px;
+}
+.photo3 {
+  position: absolute;
+  top: 434px;
+  left: 560px;
+}
+.border-orange {
+  width: 205px;
+  height: 277px;
+  background-color: rgb(255, 140, 0);
+  position: absolute;
+  top: 433px;
+  left: 758px;
+}
+.number {
+  color: rgb(255, 255, 255);
+  font-family: "Khand", sans-serif;
+  position: absolute;
+  top: 490px;
+  left: 818px;
+  font-size: 50px;
+}
+.text2 {
+  color: white;
+  font-family: "Khand", sans-serif;
+  position: absolute;
+  top: 590px;
+  left: 785px;
+  font-size: 18px;
+}
+.photo4 {
+  position: absolute;
+  top: 384px;
+  left: 963px;
+}
+.images {
+  font-family: "Khand", sans-serif;
+  position: absolute;
+  top: 720px;
+  left: 900px;
+  font-size: 15px;
+}
+.freepik {
+  color: black;
+  font-family: "Khand", sans-serif;
+  position: absolute;
+  top: 735px;
+  left: 988px;
+  font-size: 15px;
+}
