@@ -1,218 +1,193 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(to bottom, #183351 50%, #9fa2aa 50%);
-  height: 97.5vh;
+  background: linear-gradient(to bottom, #183351 50%, #bcbec4 50%);
+  height: 100vh;
+  font-family: Arial;
   overflow: hidden;
 }
-.white-line {
-  width: 100%;
-  border: 1px solid rgb(255, 255, 255);
-  position: absolute;
-  left: 0;
-  top: 0;
+.container1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  color: rgb(197, 197, 197);
+  font-size: 45px;
+  margin-bottom: -40px;
+  margin-top: 20px;
 }
-.text-main {
-  color: #c6c9d1;
-  text-align: center;
-  font-family: "Helvetica";
-  font-size: 20px;
+.container2 {
+  display: flex;
+  justify-content: center;
 }
 .at {
-  position: relative;
-  top: -20px;
-  left: -200px;
+  color: rgb(197, 197, 197);
+  font-size: 45px;
+  margin-right: 10px;
 }
-
 .phone {
-  position: relative;
-  top: -85px;
-  left: 800px;
+  width: 40px;
+  height: 40px;
+  margin-top: 50px;
 }
 .number {
   color: red;
   font-family: "Helvetica";
-  position: relative;
-  top: -175px;
-  left: 850px;
-  font-size: 50px;
+  font-size: 45px;
+  margin-left: 10px;
 }
-.photo1 {
-  position: relative;
-  top: -100px;
-  left: 520px;
+.container3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10px;
+  width: 100%;
 }
-.photo1::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 22.65%;
-  height: 99%;
+.container4 {
+  display: flex;
+  flex-direction: column;
+}
+.img1 {
+  display: flex;
+  background-size: cover;
+  width: 428px;
+  height: 450px;
+  margin-bottom: 10px;
+  background-image: url("images/bnbn.jpg");
+}
+.dark1 {
+  width: 428px;
+  height: 450px;
   background-color: rgba(0, 0, 0, 0.3);
-  z-index: 1;
 }
-.photo1 img {
+.text1 {
+  margin-top: 50%;
+  margin-left: 22%;
+  font-size: 40px;
+  color: white;
   z-index: 2;
 }
-
-.photo1-text {
-  color: rgb(255, 255, 255);
-  font-family: "Verdana";
-  position: relative;
-  top: -380px;
-  left: 620px;
-  font-size: 35px;
-  letter-spacing: -2px;
-  z-index: 3;
+.container5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
-.photo2 {
-  position: relative;
-  top: -455px;
-  left: 970px;
+.img2 {
+  width: 209px;
+  height: 170px;
+  margin-right: 10px;
+  display: flex;
+  background-size: cover;
+  background-image: url("images/tt.jpg");
 }
-.photo2::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 22.65%;
-  height: 99%;
+.dark2 {
+  width: 209px;
+  height: 170px;
   background-color: rgba(0, 0, 0, 0.3);
-  z-index: 1;
 }
-.photo2 img {
+.text2 {
+  margin-top: 30%;
+  margin-left: 26%;
+  font-size: 40px;
+  color: white;
   z-index: 2;
 }
-.photo2-text {
-  color: rgb(255, 255, 255);
-  font-family: "Verdana";
-  position: relative;
-  top: -735px;
-  left: 1100px;
-  font-size: 35px;
-  letter-spacing: -2px;
-  z-index: 3;
+.img3 {
+  width: 209px;
+  height: 170px;
+  display: flex;
+  background-size: cover;
+  background-image: url("images/jhjhjh.jpg");
 }
-.photo3 {
-  position: relative;
-  top: -1202px;
-  left: 970px;
-}
-.photo3::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 10.95%;
-  height: 97.5%;
+.dark3 {
+  width: 209px;
+  height: 170px;
   background-color: rgba(0, 0, 0, 0.3);
-  z-index: 1;
 }
-.photo3 img {
+.text3 {
+  margin-top: 30%;
+  margin-left: 26%;
+  font-size: 40px;
+  color: white;
   z-index: 2;
 }
-.photo3-text {
-  color: rgb(255, 255, 255);
-  font-family: "Verdana";
-  position: relative;
-  top: -1350px;
-  left: 1020px;
-  font-size: 35px;
-  letter-spacing: -2px;
-  z-index: 3;
+.container6 {
+  display: flex;
+  flex-direction: column;
 }
-.photo4 {
-  position: relative;
-  top: -1496px;
-  left: 1195px;
+.container7 {
+  display: flex;
+  flex-direction: row;
 }
-.photo4::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 10.95%;
-  height: 97.5%;
+.img4 {
+  width: 211px;
+  height: 170px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  display: flex;
+  background-size: cover;
+  background-image: url("images/jkkjjk.jpg");
+}
+.dark4 {
+  width: 211px;
+  height: 170px;
   background-color: rgba(0, 0, 0, 0.3);
-  z-index: 1;
 }
-.photo4 img {
+.text4 {
+  margin-top: 30%;
+  margin-left: 22%;
+  font-size: 40px;
+  color: white;
   z-index: 2;
 }
-.photo4-text {
-  color: rgb(255, 255, 255);
-  font-family: "Verdana";
-  position: relative;
-  top: -1640px;
-  left: 1234px;
-  font-size: 35px;
-  letter-spacing: -2px;
-  z-index: 3;
+.img5 {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 206px;
+  height: 170px;
+  display: flex;
+  background-size: cover;
+  background-image: url("images/rtrt.jpg");
 }
-.photo5 {
-  position: relative;
-  top: -1337px;
-  left: 520px;
-}
-.photo5::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 10.95%;
-  height: 97.5%;
+.dark5 {
+  width: 206px;
+  height: 170px;
   background-color: rgba(0, 0, 0, 0.3);
-  z-index: 1;
 }
-.photo5 img {
+.text5 {
+  margin-top: 30%;
+  margin-left: 17%;
+  font-size: 40px;
+  color: white;
   z-index: 2;
 }
-.photo5-text {
-  color: rgb(255, 255, 255);
-  font-family: "Verdana";
-  position: relative;
-  top: -1490px;
-  left: 580px;
-  font-size: 35px;
-  letter-spacing: -2px;
-  z-index: 3;
+.container8 {
+  display: flex;
 }
-
-.photo6 {
-  position: relative;
-  top: -1632px;
-  left: 745px;
+.img6 {
+  width: 428px;
+  height: 447px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  background-size: cover;
+  background-image: url("images/nbn.jpg");
 }
-.photo6::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 10.95%;
-  height: 97.5%;
+.dark6 {
+  width: 428px;
+  height: 447px;
   background-color: rgba(0, 0, 0, 0.3);
-  z-index: 1;
 }
-.photo6 img {
+.text6 {
+  margin-top: 50%;
+  margin-left: 28%;
+  font-size: 40px;
+  color: white;
   z-index: 2;
 }
-.photo6-text {
-  color: rgb(255, 255, 255);
-  font-family: "Verdana";
-  position: relative;
-  top: -1790px;
-  left: 805px;
-  font-size: 35px;
-  letter-spacing: -2px;
-  z-index: 3;
-}
-.end-text{
-  font-family: "Verdana";
-  color: black;
+.container9 {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  color: rgb(24, 24, 24);
   font-style: italic;
-  position: relative;
-  top: -1730px;
-  left: 880px;
-
 }
